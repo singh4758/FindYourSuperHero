@@ -1,6 +1,6 @@
 (function(){
 	if (localStorage.storage==undefined) {
-		var container = document.getElementById('container');
+		var container = document.getElementById('myul');
 		var str = "<h1 id='error'>Error Please Back </h1>";
 		container.remove();
 		var body = document.getElementsByTagName('body');
