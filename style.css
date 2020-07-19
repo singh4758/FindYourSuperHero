@@ -1,0 +1,89 @@
+body{
+	background-image: url('1.jpg');
+	background-size: cover;
+	background-position: center top;
+	height: 96vh;
+	width: 100vw;
+	margin: 0px;
+}
+
+#heading{
+	position: relative;
+}
+
+button{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+}
+
+h1{
+	text-align: center;
+	color: yellow;
+}
+
+#container{
+	margin-top: 150px;
+}
+
+#container h3{
+	text-align: center;
+	color: red;
+}
+
+#container input{
+	width: 97%;
+	margin: auto;
+	color: white;
+	background: border-box;
+}
+
+#input-list{
+	width: 250px;
+	margin: auto;
+}
+
+li{
+	height: 35px;
+	font-size: 25px;
+	color: yellow;
+	position: relative;
+	margin: 5px 0px;
+}
+
+.data{
+	cursor: pointer;
+}
+
+ul{
+	list-style-type: none;
+	margin: 0px;
+	padding-left: 0px;
+	max-height: 300px;
+	overflow-y: scroll;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+ul::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+ul {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
+.selected{
+	background-color: blue;
+}
+
+i{
+	color: red;
+	position: absolute;
+	right: 0;
+	cursor: pointer;
+}

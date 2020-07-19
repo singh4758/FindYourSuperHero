@@ -1,0 +1,160 @@
+body{
+	min-width: 700px;
+	height: 95vh;
+	background-color: black;
+	background-image: url("2.jpg");
+	background-size: cover;
+}
+
+#heading{
+	border: 1px solid red;
+	margin-bottom: 2px;
+	position: relative;
+}
+
+#right{
+	position: absolute;
+	background-color: black;
+	color: white;
+	right: 40px;
+	top: 10px;
+	cursor: pointer;
+}
+
+#icon{
+	position: absolute;
+	right: 10PX;
+	top: 10px;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+#main-container{
+	position: relative;
+}
+
+h1,h2{
+	text-align: center;
+}
+
+h1,h2, h3 , h4 {
+	color: blue;
+}
+
+span{
+	margin-left: 5px;
+	color: yellow;
+}
+
+
+img{
+	width: 100%;
+	height: 34vh;
+}
+
+#biography-container{
+	border: 1px solid red;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+
+#appearance h4{
+	min-width: 100px;
+	margin: 10px 0px;
+	margin-right: 10px;
+	display: inline-block;
+}
+
+#appearance-container{
+	max-width: 400px;
+	min-width: 176px;
+	position: absolute;
+	top: 0;
+	border: 1px solid red;
+	width: 25%;
+	height: 88vh;
+	padding: 5px;
+	display: inline-block;
+}
+
+#detail-container{
+	position: absolute;
+	top: 0;
+	right: 0;
+	display: inline-block;
+	width: 73%;
+	height: 90vh;
+	overflow-y: scroll;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#biography-detail h4{
+	margin: 10px 0px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+#biography-detail span{
+	display: inline-block;
+	min-width: 50px;
+}
+
+#work-container{
+	border: 1px solid red;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#work-detail span{
+	display: inline-block;
+	min-width: 50px;
+}
+
+
+#work-detail h4{
+	margin: 10px 0px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+#powerstats-container{
+	border: 1px solid red;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#powerstats-detail span{
+	display: inline-block;
+	min-width: 50px;
+}
+
+
+#powerstats-detail h4{
+	margin: 10px 0px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+#connection-container{
+	border: 1px solid red;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+#connection-detail span{
+	display: inline-block;
+	min-width: 50px;
+}
+
+
+#connection-detail h4{
+	margin: 10px 0px;
+	margin-right: 20px;
+	display: inline-block;
+}
+
+
