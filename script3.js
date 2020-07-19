@@ -1,10 +1,12 @@
 (function(){
 	if (localStorage.storage==undefined) {
-		var container = document.getElementById('myul');
+		var myul = document.getElementById('myul');
 		var str = "<h1 id='error'>Error Please Back </h1>";
-		container.remove();
+		myul.remove();
+		var div = createElement('div');
+		div.innerHTML = str;
 		var body = document.getElementsByTagName('body');
-		body[0].innerHTML = str;
+		body[0].appendChild(div); = str;
 		return;
 	}
 
