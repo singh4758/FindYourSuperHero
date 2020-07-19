@@ -63,6 +63,14 @@ li{
 	padding-left: 10px;
 }
 
+.empty{
+	color: blue;
+	text-align: center;
+	width: 50%;
+	margin: auto;
+	margin-top: 150px;
+}
+
 .number{
 	margin-right: 30px;
 	margin-left: 10px;

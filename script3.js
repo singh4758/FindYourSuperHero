@@ -1,13 +1,6 @@
 (function(){
 	if (localStorage.storage==undefined) {
-		var myul = document.getElementById('myul');
-		var str = "<h1 id='error'>Error Please Back </h1>";
-		myul.remove();
-		var div = createElement('div');
-		div.innerHTML = str;
-		var body = document.getElementsByTagName('body');
-		body[0].appendChild(div); = str;
-		return;
+		localStorage.storage = JSON.stringify([]);
 	}
 
 	request();
@@ -21,11 +14,12 @@ function request(){
 	if (arr.length==0) {
 		var myul = document.getElementById('myul');
 		myul.remove();
-		var div = document.createElement('div');
-		var body = document.getElementsByTagName('body');
-		var str = "<h3>Favourite List is Empty</h3><h5>Please add Your Favourite Hero to show here</h5>";
-		div.innerHTML = str;
-		body[0].appendChild(div);
+		var div = document.getElementById('conatainer');
+		var cre =document.createElement('div');
+		cre.setAttribute("class","empty");
+		var str = "<h2>Favourite List is Empty</h2><h4>Please add Your Favourite Hero to show here</h4>";
+		cre.innerHTML = str;
+		div.appendChild(cre);
 		return
 	}
 	for (let i = 0; i<arr.length;i++) {

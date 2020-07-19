@@ -151,3 +151,6 @@ var addfavourite = ()=>{
 	iconsetstart();
 }
 
+function favourite(){
+	window.open("favourite.html","_self");
+}

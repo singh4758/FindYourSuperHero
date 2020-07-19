@@ -21,6 +21,15 @@ body{
 	cursor: pointer;
 }
 
+#left{
+	position: absolute;
+	background-color: black;
+	color: white;
+	left: 10px;
+	top: 10px;
+	cursor: pointer;
+}
+
 #icon{
 	position: absolute;
 	right: 10PX;
